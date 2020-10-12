@@ -1,6 +1,6 @@
 const User = require("../models/UserModel")
 const { body, validationResult } = require("express-validator")
-const apiResponse  = require("../helpers/apiResponse")
+const apiResponse = require("../helpers/apiResponse")
 const auth = require("../middlewares/jwt")
 var mongoose = require("mongoose")
 var {merchant_status} = require("../helpers/constants")
