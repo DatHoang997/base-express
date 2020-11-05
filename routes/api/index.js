@@ -1,7 +1,7 @@
-let express             = require("express")
-let user                = require("./user")
-const auth              = require("../../middlewares/jwt")
-const adminRole         = require("../../middlewares/admin")
+let express = require("express")
+let user = require("./user")
+const auth = require("../../middlewares/jwt")
+const adminRole = require("../../middlewares/admin")
 
 let app = express()
 
