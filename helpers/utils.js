@@ -21,15 +21,15 @@ exports.getRefBy = async function (username) {
 	})
 }
 
-exports.weiToPOC =  function (wei) {
+exports.weiToPOC = function (wei) {
 	return decShift(wei, -18);
 }
 
-exports.weiToUSDT =  function (wei) {
+exports.weiToUSDT = function (wei) {
 	return decShift(wei, -6);
 }
 
-exports.pocToWei =  function (wei) {
+exports.pocToWei = function (wei) {
 	return decShift(wei, 18);
 }
 
